@@ -1,0 +1,58 @@
+/*******************************************************************************
+*
+* IDL2Matlab and Scilab translator
+*   Computing for Science group
+*   Institut Laue langevin, BP 156
+*   F-38042 Grenoble cedex 9, FRANCE
+*
+* Documentation: CHANGES
+*
+* %Identification
+* Written by: EF, DR
+* Date: 2003-2009
+* Origin: ILL
+
+        Release 0.0 (28 jan 2003) dev (alpha)
+        Release 1.0 (31 jul 2003) dev (alpha)
+        Release 1.1 (17 Nov 2003) dev (alpha)
+        Release 1.2 (11 Mar 2004) dev (alpha)
+        Release 1.3 (20 Mar 2006) dev (alpha)
+        Release 1.4 (13 Jun 2007) beta
+        Release 1.5 (21 jan 2009) final
+        Release 1.6 (01 may 2013) fix buffer overflow
+*
+* This file is part of IDL2Matlab  version 1.6, released May 1st, 2013.
+* It gives a 'changes' list from the beginning of the project
+*
+*******************************************************************************/
+
+01 May 2013: fix buffer overflow error with gcc >= 4 (idl2matlab 1.6)
+
+31 July 2003: first dev-alpha release (idl2matlab-31_Jul_2003.zip)
+-------------------------------------
+Supplies an Intel/Linux binary (idl2matlab).
+Translate basic scripts (computations) but not efficient for graphics
+
+17 Nov 2003: second dev-alpha release (idl2matlab-17_Nov_2003.zip)
+-------------------------------------
+Has many enhancements/bug corrections in grammar and code generation
+Also is now supplied with a complete Matlab library, which may not work 100 %
+A Scilab library is given as experimental...
+
+11 march 2004: third dev-alpha release (idl2matlab-11_Mar_2004.zip)
+-------------------------------------
+Includes binaries for linux, OSF and SGI machines
+With full libraries
+
+20 march 2006: forth dev-alpha release (idl2matlab-20_Mar_2006.zip)
+-------------------------------------
+small bug fix. Better localization of library.
+
+13 June 2007: beta release (idl2matlab-1.4)
+-------------------------------------
+better portability. Windows and Linux executables.
+
+21 January 2009: final release (idl2matlab-1.5)
+-------------------------------------
+Improved Linux and Windows installation procedures
+
